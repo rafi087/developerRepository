@@ -17,6 +17,8 @@ h1 {
 
 section {
     display: flex;
+
+    padding-bottom: 150px;
 }
 
 .half-width {
@@ -49,4 +51,27 @@ section {
     background-size: 4%;
 
 
+}
+
+.dream-big {
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 4%;
+    padding-right: 7%;
+    display: flex;
+}
+
+.scnd-img {
+    padding-left: 5%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    background-color: orange;
+    padding: 5px 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
 }
